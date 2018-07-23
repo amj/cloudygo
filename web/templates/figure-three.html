@@ -44,6 +44,7 @@
       | <a href="{{ url_for('models_graphs', bucket=bucket) }}">Graphs</a>
       | Figure 3
       | <a href="{{ url_for('eval_graphs', bucket=bucket) }}">Evaluation</a>
+      {{ other_buckets() }}
     </h1>
     {% if exists %}
     <hr>
